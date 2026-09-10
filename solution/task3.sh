@@ -1,1 +1,1 @@
-find . -name "*.txt" -printf "%f\n"
+find . -name "*.txt" -printf "%f\n" | sort
